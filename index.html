@@ -150,7 +150,13 @@
     </div>
     <!-- Popup container -->
     <div id="popup-container" class="popup">
-        <div class="popup-content">
+        <div id="ads" class="ads">
+            <span class="close-btn" onclick="closeads()">&times;</span>
+            <center> <a href="/hire.html"><img  src="Images/graphics/plan.jpg" alt="" srcset="">
+            </a></center>
+            
+        </div>
+        <div id="privacy_policy_popup" class="popup-content">
             <span class="close-btn" onclick="closePopup()">&times;</span>
             <div class="privacy_policy_popup">
                 <h1>Privacy Policy for NK'S - Website Building Company</h1>
@@ -297,9 +303,40 @@
             </div>
         </div>
     </div>
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/65c215050ff6374032c9e065/1hlv248h3';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
 </body>
 
 </html>
+<script>
+
+    function openads() {
+        document.getElementById('popup-container').style.display = 'block';
+        document.getElementById('ads').style.display = 'block';
+        document.getElementById('privacy_policy_popup').style.display = 'none';
+    }
+
+    function closeads() {
+        document.getElementById('popup-container').style.display = 'none';
+
+        document.getElementById('ads').style.display = 'none';
+        document.getElementById('privacy_policy_popup').style.display = 'block';
+    }
+    window.onload = function () {
+        openads();
+    };
+</script>
 
 <script src="script.js"></script>

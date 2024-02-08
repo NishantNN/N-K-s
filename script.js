@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var counterElement = document.getElementById('counter');
   
     // Set the target number
-    var targetNumber = 6;
+    var targetNumber = 5;
     var duration = 2000; // Animation duration in milliseconds
     var interval = 20; // Update interval in milliseconds
     var repeatInterval = 10000; // Repeat interval in milliseconds
@@ -72,6 +72,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initial call to start the animation
     updateCounter();
   });
+
+
   function openPopup() {
     var popup = document.getElementById('popup-container');
     popup.style.display = 'block';
