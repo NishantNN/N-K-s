@@ -20,19 +20,19 @@ let projects_mbl = document.getElementById('projects_mbl');
 let Hire_mbl = document.getElementById('Hire_mbl')
 
 home_mbl.addEventListener('click', function () {
-  window.location.href = '/NIK-ss/index.html';
+  window.location.href = '/N-K-s/index.html';
 })
 
 team_mbl.addEventListener('click', function () {
-  window.location.href = '/NIK-ss/team.html';
+  window.location.href = '/N-K-s/team.html';
 })
 
 projects_mbl.addEventListener('click', function () {
-  window.location.href = '/NIK-ss/projects.html';
+  window.location.href = '/N-K-s/projects.html';
 })
 
 Hire_mbl.addEventListener('click', function () {
-  window.location.href = '/NIK-ss/hire.html';
+  window.location.href = '/N-K-s/hire.html';
 })
 
 
