@@ -20,22 +20,20 @@ let projects_mbl = document.getElementById('projects_mbl');
 let Hire_mbl = document.getElementById('Hire_mbl')
 
 home_mbl.addEventListener('click', function () {
-  window.location.href = '/N-K-s/index.html';
+  window.location.href = 'https://www.nishantapoudel.com.np/index.html';
 })
 
 team_mbl.addEventListener('click', function () {
-  window.location.href = '/N-K-s/team.html';
+  window.location.href = 'https://www.nishantapoudel.com.np/team.html';
 })
 
 projects_mbl.addEventListener('click', function () {
-  window.location.href = '/N-K-s/projects.html';
+  window.location.href = 'https://www.nishantapoudel.com.np/projects.html';
 })
 
 Hire_mbl.addEventListener('click', function () {
-  window.location.href = '/N-K-s/hire.html';
+  window.location.href = 'https://www.nishantapoudel.com.np/hire.html';
 })
-
-
 document.addEventListener('DOMContentLoaded', function () {
     // Get the counter element
     var counterElement = document.getElementById('counter');
